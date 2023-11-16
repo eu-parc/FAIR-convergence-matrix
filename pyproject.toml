@@ -1,0 +1,24 @@
+[tool.poetry]
+name = "fair-convergence-matrix"
+version = "0.1.0"
+description = ""
+authors = ["Ruben Peeters <ruben.peeters@vito.be>"]
+readme = "README.md"
+packages = [{ include = "fair_convergence_matrix" }]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+requests = "^2.31.0"
+pandas = "^2.0.3"
+numpy = "^1.25.2"
+matplotlib = "^3.7.2"
+ipykernel = "^6.25.1"
+sparqlwrapper = "^2.0.0"
+networkx = "^3.1"
+seaborn = "^0.12.2"
+openpyxl = "^3.1.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
