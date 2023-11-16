@@ -3,7 +3,7 @@ Basic code to create FAIR convergence matrix from nanodash nanopublications
 
 ## Prerequisites
 
-- Basic knowledge how to run python code
+- Basic knowledge on how to run python code
 - Selecting data using pandas
 
 ## How to use
@@ -15,7 +15,7 @@ There are two ways to run the code.
 1. Run `main.py`
 2. Run `create_FAIR_convergence_matrix.ipynb`
 
-In both cases you will have to change the selection of the data manually, to fit your needs. You can do this in many ways using python and pandas. Some of the methods are described here: https://pandas.pydata.org/docs/user_guide/indexing.html\
+In both cases you will have to change the selection of the data manually, to fit your needs. You can do this in many ways using python and pandas. Some of the methods are described here: https://pandas.pydata.org/docs/user_guide/indexing.html
 
 The lines to change are indicated in both files respectively. 
 
