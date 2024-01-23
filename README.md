@@ -1,4 +1,11 @@
+<!-- badges: start -->
+
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.10556249.svg)](https://doi.org/10.5281/zenodo.10556249)
+
+<!-- badges: end -->
+
 # FAIR-convergence-matrix
+
 Basic code to create FAIR convergence matrix from nanodash nanopublications
 
 ## Prerequisites
@@ -20,7 +27,7 @@ There are two ways to run the code.
 
 In both cases you will have to change the selection of the data manually, to fit your needs. You can do this in many ways using python and pandas. Some of the methods are described here: https://pandas.pydata.org/docs/user_guide/indexing.html
 
-The lines to change are indicated in both files respectively. 
+The lines to change are indicated in both files respectively.
 
 The current implementation selects all communities with an `A` in their name.
 
@@ -30,7 +37,6 @@ The R code is available in the `r` folder.
 You can run the code in the [Quarto](https://quarto.org/) document `fcm.qmd`
 
 You will have to change the selection of the data manually, to fit your needs. Currently this is done using the tidyverse, selecting data from all FICs that have "ENVRI" as supercommunity. More information on filtering using the information in the excellent "R for Data Science" book: https://r4ds.had.co.nz/transform.html?q=filter#filter-rows-with-filter.
-
 
 ## Contact
 
