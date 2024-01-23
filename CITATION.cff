@@ -11,5 +11,5 @@ title: "FCM-pyr: Python and R FAIR Convergence Matrix"
 version: 0.1.0
 identifiers:
   - type: doi
-    value:
-date-released:
+    value: 10.5281/zenodo.10556249
+date-released: 2024.01.23
